@@ -1,0 +1,5 @@
+.cards {
+  @include flex-column();
+
+  @import "../components/card";
+}

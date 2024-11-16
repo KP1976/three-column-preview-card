@@ -1,0 +1,27 @@
+.card {
+  @include flex-column($space-24);
+  padding: $space-48;
+
+  &__content {
+    @include flex-column($space-34);
+  }
+
+  &__icon {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 4rem;
+  }
+
+  &--sedan {
+    background-color: $rusted-orange;
+  }
+
+  &--suv {
+    background-color: $dark-cyan;
+  }
+
+  &--luxury {
+    background-color: $very-dark-cyan;
+  }
+}

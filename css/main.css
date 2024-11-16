@@ -161,3 +161,36 @@ main {
   padding: 0 1.5rem;
   width: 100%;
 }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem;
+}
+.cards .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.125rem;
+}
+.cards .card__icon {
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4rem;
+}
+.cards .card--sedan {
+  background-color: hsl(31, 100%, 33%);
+}
+.cards .card--suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.cards .card--luxury {
+  background-color: hsl(179, 100%, 13%);
+}
