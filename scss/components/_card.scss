@@ -13,7 +13,48 @@
     width: 4rem;
   }
 
+  &__text {
+    @include flex-column($space-28);
+  }
+
+  &__title {
+    color: $very-light-gray;
+    font-family: $font-title;
+    font-size: $font-size-40;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    color: $transparent-white;
+    font-size: $font-size-15;
+    line-height: $line-height-165;
+  }
+
+  &__button {
+    align-items: center;
+    background-color: $very-light-gray;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 9.125rem;
+
+    &--sedan {
+      color: $rusted-orange;
+    }
+
+    &--suv {
+      color: $dark-cyan;
+    }
+
+    &--luxury {
+      color: $very-dark-cyan;
+    }
+  }
+
   &--sedan {
+    border-radius: $border-radius-8 $border-radius-8 0 0;
     background-color: $rusted-orange;
   }
 
@@ -22,6 +63,7 @@
   }
 
   &--luxury {
+    border-radius: 0 0 $border-radius-8 $border-radius-8;
     background-color: $very-dark-cyan;
   }
 }

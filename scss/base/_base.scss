@@ -19,6 +19,6 @@ main {
   @include flex-column();
   flex: 1 1 auto;
   justify-content: center;
-  padding: 0 $space-24;
+  padding: $space-24;
   width: 100%;
 }
