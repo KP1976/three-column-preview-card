@@ -1,0 +1,11 @@
+.attribution {
+  bottom: 0;
+  font-size: $font-size-12;
+  padding: $space-16 0;
+  position: absolute;
+  text-align: center;
+
+  &__link {
+    color: $soft-violet;
+  }
+}
