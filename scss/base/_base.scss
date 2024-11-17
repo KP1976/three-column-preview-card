@@ -6,7 +6,7 @@ body {
 
 body {
   align-items: center;
-  background-color: $very-light-gray;
+  background-color: hsl(0, 0%, 75%);
   font-family: $font-main;
   font-size: 15px;
   @include flex-column();
