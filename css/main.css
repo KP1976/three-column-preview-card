@@ -264,11 +264,11 @@ main {
 }
 
 .attribution {
-  color: hsl(179, 100%, 13%);
+  color: hsl(184, 100%, 22%);
   font-size: 0.75rem;
   padding: 1rem;
   text-align: center;
 }
 .attribution__link {
-  color: hsl(31, 100%, 33%);
+  color: hsl(179, 100%, 13%);
 }
