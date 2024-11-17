@@ -166,12 +166,26 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0;
+  max-width: 57.563rem;
+}
+@media (min-width: 46.25rem) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
 }
 .cards .card {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   padding: 3rem;
+}
+@media (min-width: 46.25rem) {
+  .cards .card {
+    flex: 1;
+    gap: 5.125rem;
+  }
 }
 .cards .card__content {
   display: flex;
@@ -224,12 +238,22 @@ main {
   border-radius: 0.5rem 0.5rem 0 0;
   background-color: hsl(31, 100%, 33%);
 }
+@media (min-width: 46.25rem) {
+  .cards .card--sedan {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+}
 .cards .card--suv {
   background-color: hsl(184, 100%, 22%);
 }
 .cards .card--luxury {
   border-radius: 0 0 0.5rem 0.5rem;
   background-color: hsl(179, 100%, 13%);
+}
+@media (min-width: 46.25rem) {
+  .cards .card--luxury {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
 }
 
 .attribution {

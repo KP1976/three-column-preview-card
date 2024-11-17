@@ -1,5 +1,10 @@
 .cards {
   @include flex-column();
+  max-width: 57.563rem;
+
+  @include respond-to($breakpoint) {
+    @include flex-row();
+  }
 
   @import "../components/card";
 }
