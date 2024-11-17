@@ -220,10 +220,17 @@ main {
   align-items: center;
   background-color: hsl(0, 0%, 95%);
   border-radius: 5rem;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   height: 3rem;
   width: 9.125rem;
+  transition: all 0.2s ease-in-out;
+}
+.cards .card__button:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
 .cards .card__button--sedan {
   color: hsl(31, 100%, 33%);

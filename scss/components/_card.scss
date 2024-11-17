@@ -40,10 +40,18 @@
     align-items: center;
     background-color: $very-light-gray;
     border-radius: 5rem;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     height: 3rem;
     width: 9.125rem;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid $very-light-gray;
+      color: $very-light-gray;
+    }
 
     &--sedan {
       color: $rusted-orange;
