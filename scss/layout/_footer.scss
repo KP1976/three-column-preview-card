@@ -1,11 +1,10 @@
-// .attribution {
-//   bottom: 0;
-//   font-size: $font-size-12;
-//   padding: $space-16 0;
-//   position: absolute;
-//   text-align: center;
+.attribution {
+  color: $very-dark-cyan;
+  font-size: 0.75rem;
+  padding: 1rem;
+  text-align: center;
 
-//   &__link {
-//     color: $soft-violet;
-//   }
-// }
+  &__link {
+    color: $rusted-orange;
+  }
+}
